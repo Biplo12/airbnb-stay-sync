@@ -1,0 +1,48 @@
+body {
+  padding: 16px;
+  width: 300px;
+  background-color: #7d848f;
+  color: white;
+}
+
+.title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.sync-button {
+  margin-top: 16px;
+  padding: 8px 16px;
+  background-color: #3b82f6; /* blue-500 */
+  border-radius: 4px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.sync-button:hover {
+  background-color: #2563eb; /* darker blue */
+}
+
+.status {
+  margin-top: 8px;
+  font-size: 0.875rem;
+}
+
+.instructions {
+  margin-top: 16px;
+  padding: 16px;
+  border: 1px solid #d1d5db; /* gray-300 */
+  border-radius: 4px;
+}
+
+.subtitle {
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.instruction-list {
+  list-style-type: decimal;
+  padding-left: 20px;
+  margin-top: 8px;
+}
